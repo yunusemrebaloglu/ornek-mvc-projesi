@@ -1,0 +1,63 @@
+header {
+	background-image: url("../img/demologo.jpeg");
+	background-size: : 200px;
+    width: 100%;
+    padding: 40px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	border: 1px;
+
+
+}
+footer{
+	display: block;
+	position:absolute;
+   	width:100%;
+   	background:black;
+	color: white;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+}
+body{
+	background-color: #03589B;
+}
+.container {
+	background-color: white;
+	margin: auto;
+	
+}
+hr{
+	color: red;
+}
+.center{
+	text-align: center;
+}
+.kutu{
+	    border-left: 1px solid black;
+    	border-bottom: 1px solid black;
+}
+.kutux{
+		border-right: 1px solid black;
+    	border-bottom: 1px solid black;
+}
+.aw-zoom
+{
+    position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.aw-zoom:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
